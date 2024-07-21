@@ -1,0 +1,20 @@
+{
+  "blocks": [
+    {
+      "id": "be0e",
+      "name": "Memory",
+      "properties": [
+        "Confidentiality",
+        "Integrity"
+      ]
+    },
+    {
+      "id": "84b6",
+      "name": "Microcontroller",
+      "properties": [
+        "Authenticity",
+        "Authorization"
+      ]
+    }
+  ]
+}
