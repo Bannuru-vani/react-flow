@@ -30,7 +30,7 @@ cd react-flow/
 
 npm install
 ```
-Once the NPM packages installed before running React app start the json server
+Once the NPM packages installed, before running React app start the json server
 
 ```bash
 json-server --watch db.json --port 3000
