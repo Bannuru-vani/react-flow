@@ -1,8 +1,58 @@
-# React + Vite
+# React Flow Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://github.com/Bannuru-vani/react-flow/blob/main/readme.png)
 
-Currently, two official plugins are available:
+## Used Tools
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Material UI
+- React-flow
+- zustand
+- json-server
+- axios
+- Vite
+
+
+## Running locally
+
+Step-by-step instructions on how to set up the project locally.
+
+Take clone from the repository
+
+```bash
+git clone https://github.com/Bannuru-vani/react-flow.git
+```
+
+After clone
+
+```bash
+cd react-flow/
+
+npm install
+```
+Once the NPM packages installed before running React app start the json server
+
+```bash
+json-server --watch db.json --port 3000
+```
+
+next start vite server on port http://localhost:5173/
+
+
+```bash
+npm run dev
+```
+
+## Features
+
+- Modal View
+  - To see List of Nodes
+  - To add new Node by clicking Create component button
+  - To delete a node
+- Table View
+  - To view the Nodes with their Properties
+- React Flow View
+  - To See Nodes and Interact with nodes
+
+I am using json server as suggested to store data and save whenever the position is updated updating the Nodes in database also to keep the position persisted.
+
