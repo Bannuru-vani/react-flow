@@ -1,19 +1,199 @@
 {
-  "blocks": [
+  "circuits": [
     {
-      "id": "be0e",
-      "name": "Memory",
-      "properties": [
-        "Confidentiality",
-        "Integrity"
+      "id": "circuit1",
+      "name": "First Circuit",
+      "position": {
+        "x": 300,
+        "y": 150
+      },
+      "blocks": [
+        {
+          "id": "be0e",
+          "name": "Memory",
+          "properties": [
+            "Confidentiality",
+            "Integrity"
+          ],
+          "position": {
+            "x": 37,
+            "y": -40
+          }
+        },
+        {
+          "id": "84b6",
+          "name": "Microcontroller",
+          "type": "default",
+          "properties": [
+            "Authenticity",
+            "Authorization"
+          ],
+          "position": {
+            "x": 6,
+            "y": 116
+          }
+        },
+        {
+          "id": "m0v5n3ms",
+          "name": "Memory",
+          "properties": [],
+          "type": "rectangle",
+          "position": {
+            "x": 299,
+            "y": 62
+          },
+          "data": {
+            "label": "Memory",
+            "color": "#d21919"
+          },
+          "style": {
+            "backgroundColor": "#d21919"
+          }
+        },
+        {
+          "id": "m0v6hg4w",
+          "name": "NBew ",
+          "properties": [
+            "Confidentiality"
+          ],
+          "position": {
+            "x": -10,
+            "y": 181
+          },
+          "type": "triangle",
+          "data": {
+            "label": "NBew ",
+            "color": "#e23636"
+          },
+          "style": {
+            "backgroundColor": "#e23636"
+          }
+        },
+        {
+          "id": "m0v6kj09",
+          "name": "Hello",
+          "properties": [
+            "Authenticity"
+          ],
+          "position": {
+            "x": 193,
+            "y": 260
+          },
+          "type": "rectangle",
+          "data": {
+            "label": "Hello",
+            "color": "#d92020"
+          },
+          "style": {
+            "backgroundColor": "#d92020"
+          }
+        },
+        {
+          "id": "m0v7h500",
+          "name": "Hello",
+          "properties": [
+            "Confidentiality"
+          ],
+          "position": {
+            "x": 571,
+            "y": 215
+          },
+          "type": "rectangle",
+          "data": {
+            "label": "Hello",
+            "color": "#511fc7"
+          },
+          "style": {
+            "backgroundColor": "#511fc7"
+          }
+        },
+        {
+          "id": "m0v8hx5g",
+          "name": "react-quiz",
+          "properties": [
+            "Integrity"
+          ],
+          "position": {
+            "x": 390,
+            "y": 284
+          },
+          "type": "rectangle",
+          "data": {
+            "label": "react-quiz",
+            "color": "#b9a12d"
+          },
+          "style": {
+            "backgroundColor": "#b9a12d"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "10a7",
+          "source": "node-1",
+          "target": "node-2"
+        },
+        {
+          "source": "be0e",
+          "target": "84b6",
+          "id": "xy-edge__be0e-84b6"
+        },
+        {
+          "source": "84b6",
+          "target": "m0v6hg4w",
+          "id": "xy-edge__84b6-m0v6hg4w"
+        }
       ]
     },
     {
-      "id": "84b6",
-      "name": "Microcontroller",
-      "properties": [
-        "Authenticity",
-        "Authorization"
+      "id": "circuit3",
+      "name": "Third Circuit",
+      "position": {
+        "x": 270,
+        "y": 180
+      },
+      "blocks": [
+        {
+          "id": "be0e",
+          "name": "Jupitar",
+          "properties": [
+            "Confidentiality",
+            "Integrity"
+          ],
+          "position": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "id": "84b6",
+          "name": "Mercury",
+          "properties": [
+            "Authenticity",
+            "Authorization"
+          ],
+          "position": {
+            "x": 100,
+            "y": 50
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "10a7",
+          "source": "node-1",
+          "target": "node-2"
+        },
+        {
+          "source": "be0e",
+          "target": "84b6",
+          "id": "xy-edge__be0e-84b6"
+        },
+        {
+          "source": "84b6",
+          "target": "be0e",
+          "id": "xy-edge__84b6-be0e"
+        }
       ]
     }
   ]
